@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "hardmod",
+  "version": "${version}",
+  "name": "HardMod",
+  "description": "Ekstrem zorluk modu: Çöl dünyası, sonsuz gece, patlayan yataklar, ölümcül moblar ve lanetler!",
+  "authors": [
+    "FALCON"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/hardmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.hardmod.HardMod"
+    ]
+  },
+  "mixins": [
+    "hardmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=26.0",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

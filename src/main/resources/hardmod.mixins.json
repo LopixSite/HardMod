@@ -1,0 +1,26 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.hardmod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BedBlockMixin",
+    "TorchBlockMixin",
+    "GrindstoneScreenHandlerMixin",
+    "LivingEntityMixin",
+    "CreeperEntityMixin",
+    "EndermanEntityMixin",
+    "VillagerEntityMixin",
+    "ShulkerBulletEntityMixin",
+    "LootTableMixin",
+    "OreFeatureMixin",
+    "SculkPatchFeatureMixin",
+    "EnderDragonEntityMixin",
+    "DragonFireballEntityMixin",
+    "EndCrystalEntityMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

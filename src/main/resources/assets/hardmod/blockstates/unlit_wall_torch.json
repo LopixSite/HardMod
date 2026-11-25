@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "hardmod:block/unlit_wall_torch"
+    },
+    "facing=south": {
+      "model": "hardmod:block/unlit_wall_torch",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "hardmod:block/unlit_wall_torch",
+      "y": 180
+    },
+    "facing=north": {
+      "model": "hardmod:block/unlit_wall_torch",
+      "y": 270
+    }
+  }
+}
